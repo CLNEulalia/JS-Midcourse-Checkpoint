@@ -45,20 +45,47 @@ describe('ARRAYS PROMPT #2', function () {
 
 	it('Returns the correct values', function () {
 		expect(titleAndArtistInfo).to.deep.equal([
-			{ title: 'Italian Landscape with a Draughtsman', artist: 'Jan Both' },
-			{ title: 'The Milkmaid', artist: 'Johannes Vermeer' },
-			{ title: 'Floral Still Life', artist: 'Hans Bollongier' },
-			{ title: 'Woman Reading a Letter', artist: 'Johannes Vermeer' },
-			{ title: 'The Merry Family', artist: 'Jan Havicksz. Steen' },
-			{ title: 'The Holy Kinship', artist: 'Geertgen tot Sint Jans' },
 			{
-				title: 'Fishing for Souls',
+				title:
+					'Italian Landscape with a Draughtsman, Jan Both, c. 1650 - c. 1652',
+				artist: 'Jan Both',
+			},
+			{
+				title: 'The Milkmaid, Johannes Vermeer, c. 1660',
+				artist: 'Johannes Vermeer',
+			},
+			{
+				title: 'Floral Still Life, Hans Bollongier, 1639',
+				artist: 'Hans Bollongier',
+			},
+			{
+				title: 'Woman Reading a Letter, Johannes Vermeer, c. 1663',
+				artist: 'Johannes Vermeer',
+			},
+			{
+				title: 'The Merry Family, Jan Havicksz. Steen, 1668',
+				artist: 'Jan Havicksz. Steen',
+			},
+			{
+				title:
+					'The Holy Kinship, Geertgen tot Sint Jans (workshop of), c. 1495',
+				artist: 'Geertgen tot Sint Jans',
+			},
+			{
+				title: 'Fishing for Souls, Adriaen Pietersz. van de Venne, 1614',
 				artist: 'Adriaen Pietersz. van de Venne',
 			},
-			{ title: 'Shiva Nataraja', artist: 'anonymous' },
-			{ title: 'The bodhisattva Manjushri', artist: 'anonymous' },
 			{
-				title: ' The Art Gallery of Jan Gildemeester Jansz',
+				title: 'Shiva Nataraja, anonymous, c. 1100 - c. 1200',
+				artist: 'anonymous',
+			},
+			{
+				title: 'The bodhisattva Manjushri, anonymous, c. 800 - c. 900',
+				artist: 'anonymous',
+			},
+			{
+				title:
+					' The Art Gallery of Jan Gildemeester Jansz, Adriaan de Lelie, 1794 - 1795',
 				artist: 'Adriaan de Lelie',
 			},
 		]);
