@@ -12,8 +12,8 @@ var titles = null;
 
 ////////////////////////////////////////////////
 // PROMPT 2
-// Use array methods to eturn an array of objects that contains the long titles and artists (principalOrFirstMaker) as properties for each item
-// Example: { title: 'Italian Landscape with a Draughtsman', artist: 'Jan Both' }
+// Use array methods to return an array of objects that contains the long titles and artists (principalOrFirstMaker) as properties for each item
+// Example: { title: 'Italian Landscape with a Draughtsman, Jan Both, c. 1650 - c. 1652', artist: 'Jan Both' }
 
 var titleAndArtistInfo = null;
 
